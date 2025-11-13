@@ -65,6 +65,16 @@
             key-positions = <2 3>;
             layers = <0>;
         };
+
+        br {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <16 25>;
+        };
+
+        br2 {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <15 26>;
+        };
     };
 
     macros {
