@@ -42,13 +42,13 @@
 
         kha {
             bindings = <&kp RU_CYRILLIC_HA>;
-            key-positions = <6 7>;
+            key-positions = <6 8>;
             layers = <1>;
         };
 
         hrdsgn {
             bindings = <&kp RU_CYRILLIC_HARD_SIGN>;
-            key-positions = <7 8>;
+            key-positions = <26 28>;
             layers = <1>;
         };
 
@@ -74,6 +74,60 @@
             bindings = <&en LEFT_BRACE>;
             key-positions = <17 26>;
             layers = <1>;
+        };
+
+        ru_ea {
+            bindings = <&kp RU_CYRILLIC_E>;
+            key-positions = <16 18>;
+            layers = <1>;
+        };
+
+        ru_io {
+            bindings = <&kp RU_CYRILLIC_IO>;
+            key-positions = <3 4>;
+            layers = <1>;
+        };
+
+        en_semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <16 17>;
+            layers = <0>;
+        };
+
+        ru_semicolon {
+            bindings = <&kp RU_SEMICOLON>;
+            key-positions = <16 17>;
+            layers = <1>;
+        };
+
+        to_mac_en {
+            bindings = <&to 8>;
+            key-positions = <33 34 35>;
+            layers = <0 1>;
+        };
+
+        to_win_en {
+            bindings = <&to 0>;
+            key-positions = <33 34 35>;
+            layers = <8 9>;
+        };
+
+        cmb_mac_ru {
+            bindings = <&mac_layer_ru>;
+            key-positions = <2 3>;
+            layers = <8>;
+        };
+
+        cmb_mac_en {
+            bindings = <&mac_layer_en>;
+            key-positions = <2 3>;
+            layers = <9>;
+        };
+
+        mac_ru_io {
+            bindings = <&kp NUBS>;
+            key-positions = <3 4>;
+            layers = <9>;
         };
     };
 
@@ -116,6 +170,20 @@
                 <&macro_wait_time 10>;
 
             label = "EN";
+        };
+
+        mac_layer_ru: mac_layer_ru {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 9 &to_ru>;
+            label = "MAC_LAYER_RU";
+        };
+
+        mac_layer_en: mac_layer_en {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 8 &to_en>;
+            label = "MAC_LAYER_EN";
         };
     };
 
@@ -176,7 +244,7 @@
             >;
         };
 
-        num {
+        num_ru {
             bindings = <
   &trans  &trans  &trans  &trans  &trans                    &trans  &kp N7  &kp N8  &kp N9  &trans
   &trans  &trans  &trans  &trans  &trans                    &trans  &kp N4  &kp N5  &kp N6  &kp MINUS
@@ -191,6 +259,24 @@
   &none  &none  &none  &none    &none                           &none      &none       &none  &none  &none
   &none  &none  &none  &none    &none                           &none      &none       &none  &none  &none
                        &kp ESC  &kp SPACE  &kp BSPC    &kp TAB  &kp ENTER  &kp DELETE
+            >;
+        };
+
+        mac_en {
+            bindings = <
+  &kp Q            &kp W         &kp E            &kp R              &kp T                                      &kp Y        &kp U               &kp I             &kp O         &kp P
+  &hml LEFT_GUI A  &hml LCTRL S  &hml LEFT_ALT D  &hml LEFT_SHIFT F  &lt 7 G                                    &lt 7 H      &hmr RIGHT_SHIFT J  &hmr RIGHT_ALT K  &hmr RCTRL L  &hmr RIGHT_GUI SEMICOLON
+  &kp Z            &kp X         &kp C            &kp V              &kp B                                      &kp N        &kp M               &kp COMMA         &kp DOT       &kp DOT
+                                                  &lt 4 DELETE       &lt 2 ENTER  &lt 5 TAB    &lt 5 BACKSPACE  &lt 2 SPACE  &lt 4 ESC
+            >;
+        };
+
+        mac_ru {
+            bindings = <
+  &kp RU_CYRILLIC_SHORT_I       &kp RU_CYRILLIC_TSE          &kp RU_CYRILLIC_U             &kp RU_CYRILLIC_KA             &kp RU_CYRILLIC_IE                                  &kp RU_CYRILLIC_EN    &kp RU_CYRILLIC_GHE             &kp RU_CYRILLIC_SHA            &kp RU_CYRILLIC_SHCHA      &kp RU_CYRILLIC_ZE
+  &hml LEFT_GUI RU_CYRILLIC_EF  &hml LCTRL RU_CYRILLIC_YERU  &hml LEFT_ALT RU_CYRILLIC_VE  &hml LEFT_SHIFT RU_CYRILLIC_A  &lt 7 RU_CYRILLIC_PE                                &lt 7 RU_CYRILLIC_ER  &hmr RIGHT_SHIFT RU_CYRILLIC_O  &hmr RIGHT_ALT RU_CYRILLIC_EL  &hmr RCTRL RU_CYRILLIC_DE  &hmr RIGHT_GUI RU_CYRILLIC_ZHE
+  &kp RU_CYRILLIC_YA            &kp RU_CYRILLIC_CHE          &kp RU_CYRILLIC_ES            &kp RU_CYRILLIC_EM             &kp RU_CYRILLIC_I                                   &kp RU_CYRILLIC_TE    &kp RU_CYRILLIC_SOFT_SIGN       &kp RU_CYRILLIC_BE             &kp RU_CYRILLIC_YU         &kp LS(NUMBER_7)
+                                                                                           &lt 4 DELETE                   &lt 3 ENTER           &lt 5 TAB    &lt 5 BACKSPACE  &lt 3 SPACE           &lt 4 ESC
             >;
         };
     };
