@@ -237,19 +237,19 @@
 
         mac_sym_en {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans                    &trans  &kp N7  &kp N8  &kp N9  &trans
-  &trans  &trans  &trans  &trans  &trans                    &trans  &kp N4  &kp N5  &kp N6  &kp MINUS
-  &trans  &trans  &trans  &trans  &trans                    &kp N0  &kp N1  &kp N2  &kp N3  &trans
-                          &trans  &trans  &trans    &trans  &trans  &trans
+  &none  &none  &none  &none  &none                  &kp LS(N8)  &kp N7  &kp N8  &kp N9  &kp LS(EQUAL)
+  &none  &none  &none  &none  &none                  &kp SLASH   &kp N4  &kp N5  &kp N6  &kp MINUS
+  &none  &none  &none  &none  &none                  &kp N0      &kp N1  &kp N2  &kp N3  &kp LS(N7)
+                       &none  &none  &none    &none  &none       &none
             >;
         };
 
         mac_sym_ru {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans                    &kp LS(N8)  &kp N7  &kp N8  &kp N9  &kp LS(EQUAL)
-  &trans  &trans  &trans  &trans  &trans                    &kp SLASH   &kp N4  &kp N5  &kp N6  &kp MINUS
-  &trans  &trans  &trans  &trans  &trans                    &kp N0      &kp N1  &kp N2  &kp N3  &kp LS(N7)
-                          &trans  &trans  &trans    &trans  &trans      &trans
+  &none  &none  &none  &none  &none                  &kp LS(N8)  &kp N7  &kp N8  &kp N9  &kp LS(EQUAL)
+  &none  &none  &none  &none  &none                  &kp SLASH   &kp N4  &kp N5  &kp N6  &kp MINUS
+  &none  &none  &none  &none  &none                  &kp N0      &kp N1  &kp N2  &kp N3  &kp LS(N7)
+                       &none  &none  &none    &none  &none       &none
             >;
         };
 
