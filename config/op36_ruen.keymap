@@ -129,6 +129,39 @@
             key-positions = <3 4>;
             layers = <9>;
         };
+
+        br {
+            bindings = <&kp LS(N9)>;
+            key-positions = <16 7>;
+        };
+
+        brr {
+            bindings = <&kp LS(N0)>;
+            key-positions = <6 17>;
+        };
+
+        brsquer {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <26 7>;
+            layers = <0 2 5 8>;
+        };
+
+        brsquerrec {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <6 27>;
+        };
+
+        brsqure_ru {
+            bindings = <&en LEFT_BRACKET>;
+            key-positions = <26 7>;
+            layers = <1 3 6 9>;
+        };
+
+        brsqurerev_ru {
+            bindings = <&en RIGHT_BRACKET>;
+            key-positions = <6 27>;
+            layers = <1 3 6 9>;
+        };
     };
 
     macros {
