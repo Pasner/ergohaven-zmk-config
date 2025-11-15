@@ -195,7 +195,7 @@
   &kp Q         &kp W                &kp E            &kp R              &kp T                                      &kp Y        &kp U               &kp I             &kp O             &kp P
   &hml LCTRL A  &hml LEFT_COMMAND S  &hml LEFT_ALT D  &hml LEFT_SHIFT F  &lt 7 G                                    &lt 7 H      &hmr RIGHT_SHIFT J  &hmr RIGHT_ALT K  &hmr RIGHT_GUI L  &hmr RCTRL SEMICOLON
   &kp Z         &kp X                &kp C            &kp V              &kp B                                      &kp N        &kp M               &kp COMMA         &kp DOT           &kp DOT
-                                                      &lt 4 DELETE       &lt 2 ENTER  &lt 5 TAB    &lt 5 BACKSPACE  &lt 2 SPACE  &lt 4 ESC
+                                                      &lt 10 DELETE      &lt 4 ENTER  &lt 2 TAB    &lt 2 BACKSPACE  &lt 4 SPACE  &lt 10 ESC
             >;
         };
 
@@ -204,7 +204,7 @@
   &kp RU_CYRILLIC_SHORT_I    &kp RU_CYRILLIC_TSE             &kp RU_CYRILLIC_U             &kp RU_CYRILLIC_KA             &kp RU_CYRILLIC_IE                                  &kp RU_CYRILLIC_EN    &kp RU_CYRILLIC_GHE             &kp RU_CYRILLIC_SHA            &kp RU_CYRILLIC_SHCHA          &kp RU_CYRILLIC_ZE
   &hml LCTRL RU_CYRILLIC_EF  &hml LEFT_GUI RU_CYRILLIC_YERU  &hml LEFT_ALT RU_CYRILLIC_VE  &hml LEFT_SHIFT RU_CYRILLIC_A  &lt 7 RU_CYRILLIC_PE                                &lt 7 RU_CYRILLIC_ER  &hmr RIGHT_SHIFT RU_CYRILLIC_O  &hmr RIGHT_ALT RU_CYRILLIC_EL  &hmr RIGHT_GUI RU_CYRILLIC_DE  &hmr RCTRL RU_CYRILLIC_ZHE
   &kp RU_CYRILLIC_YA         &kp RU_CYRILLIC_CHE             &kp RU_CYRILLIC_ES            &kp RU_CYRILLIC_EM             &kp RU_CYRILLIC_I                                   &kp RU_CYRILLIC_TE    &kp RU_CYRILLIC_SOFT_SIGN       &kp RU_CYRILLIC_BE             &kp RU_CYRILLIC_YU             &kp RU_DOT
-                                                                                           &lt 4 DELETE                   &lt 3 ENTER           &lt 5 TAB    &lt 5 BACKSPACE  &lt 3 SPACE           &lt 4 ESC
+                                                                                           &lt 10 DELETE                  &lt 4 ENTER           &lt 3 TAB    &lt 3 BACKSPACE  &lt 4 SPACE           &lt 10 ESC
             >;
         };
 
@@ -267,7 +267,7 @@
   &kp Q            &kp W         &kp E            &kp R              &kp T                                      &kp Y        &kp U               &kp I             &kp O         &kp P
   &hml LEFT_GUI A  &hml LCTRL S  &hml LEFT_ALT D  &hml LEFT_SHIFT F  &lt 7 G                                    &lt 7 H      &hmr RIGHT_SHIFT J  &hmr RIGHT_ALT K  &hmr RCTRL L  &hmr RIGHT_GUI SEMICOLON
   &kp Z            &kp X         &kp C            &kp V              &kp B                                      &kp N        &kp M               &kp COMMA         &kp DOT       &kp DOT
-                                                  &lt 4 DELETE       &lt 2 ENTER  &lt 5 TAB    &lt 5 BACKSPACE  &lt 2 SPACE  &lt 4 ESC
+                                                  &lt 10 DELETE      &lt 4 ENTER  &lt 5 TAB    &lt 5 BACKSPACE  &lt 4 SPACE  &lt 10 ESC
             >;
         };
 
@@ -276,7 +276,7 @@
   &kp RU_CYRILLIC_SHORT_I       &kp RU_CYRILLIC_TSE          &kp RU_CYRILLIC_U             &kp RU_CYRILLIC_KA             &kp RU_CYRILLIC_IE                                  &kp RU_CYRILLIC_EN    &kp RU_CYRILLIC_GHE             &kp RU_CYRILLIC_SHA            &kp RU_CYRILLIC_SHCHA      &kp RU_CYRILLIC_ZE
   &hml LEFT_GUI RU_CYRILLIC_EF  &hml LCTRL RU_CYRILLIC_YERU  &hml LEFT_ALT RU_CYRILLIC_VE  &hml LEFT_SHIFT RU_CYRILLIC_A  &lt 7 RU_CYRILLIC_PE                                &lt 7 RU_CYRILLIC_ER  &hmr RIGHT_SHIFT RU_CYRILLIC_O  &hmr RIGHT_ALT RU_CYRILLIC_EL  &hmr RCTRL RU_CYRILLIC_DE  &hmr RIGHT_GUI RU_CYRILLIC_ZHE
   &kp RU_CYRILLIC_YA            &kp RU_CYRILLIC_CHE          &kp RU_CYRILLIC_ES            &kp RU_CYRILLIC_EM             &kp RU_CYRILLIC_I                                   &kp RU_CYRILLIC_TE    &kp RU_CYRILLIC_SOFT_SIGN       &kp RU_CYRILLIC_BE             &kp RU_CYRILLIC_YU         &kp LS(NUMBER_7)
-                                                                                           &lt 4 DELETE                   &lt 3 ENTER           &lt 5 TAB    &lt 5 BACKSPACE  &lt 3 SPACE           &lt 4 ESC
+                                                                                           &lt 10 DELETE                  &lt 4 ENTER           &lt 6 TAB    &lt 6 BACKSPACE  &lt 4 SPACE           &lt 10 ESC
             >;
         };
 
